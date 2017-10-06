@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<cols>5</cols><!-- set number of columns -->
+	<img>
+		<width>160</width><!-- set width of thumbnails -->
+		<height>90</height><!-- set height of thumbnails -->	
+	</img>
+	<!-- set your favourite bookmarks, you can use as many bookmarks as you like -->
+	<bookmark>
+		<title>netflix</title>
+		<url>http://www.netflix.com</url>
+		<thumb>netflix.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>YouTube</title>
+		<url>http://youtube.com</url>
+		<thumb>youtube.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>facebook</title>
+		<url>https://www.facebook.com</url>
+		<thumb>facebook.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>Cesumar</title>
+		<url>http://www.unicesumar.edu.br/formulario/login-ambiente-online</url>
+		<thumb>cesu.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>Pinterest</title>
+		<url>http://br.pinterest.com</url>
+		<thumb>pinterest.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>Tecmundo</title>
+		<url>http://www.tecmundo.com.br</url>
+		<thumb>tecmundo.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>Instagram</title>
+		<url>http://instagram.com</url>
+		<thumb>instagram.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>Outlook</title>
+		<url>http://blu168.mail.live.com/?fid=flinbox</url>
+		<thumb>hotmail.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>twitter</title>
+		<url>http://twitter.com</url>
+		<thumb>twitter.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>google</title>
+		<url>https://www.google.com/</url>
+		<thumb>google.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>Wikipedia</title>
+		<url>http://en.wikipedia.org</url>
+		<thumb>wikipedia.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>Sinônimos</title>
+		<url>http://www.sinonimos.com.br</url>
+		<thumb>sinonimos.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>Google Tradutor</title>
+		<url>http://translate.google.com.br</url>
+		<thumb>tradutor.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>globo.com</title>
+		<url>http://www.globo.com</url>
+		<thumb>globo.png</thumb>
+	</bookmark>
+    	<bookmark>
+		<title>last.fm</title>
+		<url>http://www.last.fm/pt</url>
+		<thumb>lastfm.png</thumb>
+	</bookmark>
+</content>

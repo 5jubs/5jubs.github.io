@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<cols>5</cols><!-- set number of columns -->
+	<img>
+		<width>160</width><!-- set width of thumbnails -->
+		<height>90</height><!-- set height of thumbnails -->	
+	</img>
+	<!-- set your favourite bookmarks, you can use as many bookmarks as you like -->
+	<bookmark>
+		<title>facebook</title>
+		<url>https://www.facebook.com</url>
+		<thumb>facebook.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>twitter</title>
+		<url>http://twitter.com</url>
+		<thumb>twitter.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>Instagram</title>
+		<url>http://instagram.com</url>
+		<thumb>instagram.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>messenger</title>
+		<url>http://www.messenger.com/</url>
+		<thumb>messenger.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>Whatsapp</title>
+		<url>http://web.whatsapp.com/</url>
+		<thumb>whats.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>YouTube</title>
+		<url>http://youtube.com</url>
+		<thumb>youtube.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>Tecmundo</title>
+		<url>http://www.tecmundo.com.br/</url>
+		<thumb>tecmundo.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>Outlook</title>
+		<url>http://blu168.mail.live.com/?fid=flinbox</url>
+		<thumb>hotmail.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>globo.com</title>
+		<url>http://www.globo.com</url>
+		<thumb>globo.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>Google Tradutor</title>
+		<url>http://translate.google.com/</url>
+		<thumb>tradutor.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>Cesumar</title>
+		<url>http://www.unicesumar.edu.br</url>
+		<thumb>cesu.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>google</title>
+		<url>https://www.google.com/</url>
+		<thumb>google.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>Wikipedia</title>
+		<url>http://en.wikipedia.org</url>
+		<thumb>wikipedia.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>Submarino</title>
+		<url>http://www.submarino.com.br/</url>
+		<thumb>deviantart.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>Santander</title>
+		<url>http://www.santander.com.br/</url>
+		<thumb>deviantart.png</thumb>
+	</bookmark>
+</content>
