@@ -12,9 +12,9 @@
 		<thumb>delta.png</thumb>
 	</bookmark>
 	<bookmark>
-		<title>slack</title>
-		<url>http://deltasge.slack.com/</url>
-		<thumb>slack.png</thumb>
+		<title>RocketChat</title>
+		<url>http://chat.deltasge.com.br:3000/</url>
+		<thumb>rocketchat.png</thumb>
 	</bookmark>
 	<bookmark>
 		<title>facebook</title>
@@ -32,11 +32,11 @@
 		<thumb>instagram.png</thumb>
 	</bookmark>
 	<bookmark>
-		<title>Tecmundo</title>
-		<url>http://www.tecmundo.com.br/</url>
-		<thumb>tecmundo.png</thumb>
+		<title>Reddit</title>
+		<url>https://www.reddit.com/</url>
+		<thumb>reddit.png</thumb>
 	</bookmark>
-    <bookmark>
+  <bookmark>
 		<title>FB Messenger</title>
 		<url>http://www.messenger.com/</url>
 		<thumb>messenger.png</thumb>
@@ -56,11 +56,11 @@
 		<url>http://youtube.com</url>
 		<thumb>youtube.png</thumb>
 	</bookmark>
-	<bookmark>
-		<title>Cesumar</title>
-		<url>http://www.ead.cesumar.br/moodle2009/</url>
-		<thumb>cesu.png</thumb>
-	</bookmark>
+  <bookmark>
+    <title>Tecmundo</title>
+    <url>http://www.tecmundo.com.br/</url>
+    <thumb>tecmundo.png</thumb>
+  </bookmark>
 	<bookmark>
 		<title>last.fm</title>
 		<url>http://www.last.fm/pt/user/jubs5</url>

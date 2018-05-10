@@ -31,11 +31,11 @@
 		<url>http://web.whatsapp.com/</url>
 		<thumb>whats.png</thumb>
 	</bookmark>
-	<bookmark>
-		<title>YouTube</title>
-		<url>http://youtube.com</url>
-		<thumb>youtube.png</thumb>
-	</bookmark>
+  <bookmark>
+    <title>Reddit</title>
+    <url>https://www.reddit.com/</url>
+    <thumb>reddit.png</thumb>
+  </bookmark>
 	<bookmark>
 		<title>Tecmundo</title>
 		<url>http://www.tecmundo.com.br/</url>
@@ -56,11 +56,11 @@
 		<url>http://translate.google.com/</url>
 		<thumb>tradutor.png</thumb>
 	</bookmark>
-	<bookmark>
-		<title>Cesumar</title>
-		<url>http://www.unicesumar.edu.br</url>
-		<thumb>cesu.png</thumb>
-	</bookmark>
+  <bookmark>
+    <title>YouTube</title>
+    <url>http://youtube.com</url>
+    <thumb>youtube.png</thumb>
+  </bookmark>
 	<bookmark>
 		<title>google</title>
 		<url>https://www.google.com/</url>
