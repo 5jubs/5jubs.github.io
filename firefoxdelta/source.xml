@@ -12,9 +12,24 @@
 		<thumb>delta.png</thumb>
 	</bookmark>
 	<bookmark>
+		<title>GitHub</title>
+		<url>https://github.com/</url>
+		<thumb>github.png</thumb>
+	</bookmark>
+	<bookmark>
 		<title>RocketChat</title>
-		<url>http://chat.deltasge.com.br:3000/</url>
+		<url>https://chat.deltasge.com.br:8000/</url>
 		<thumb>rocketchat.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>WekanDelta</title>
+		<url>https://chat.deltasge.com.br:8000/wekan/</url>
+		<thumb>wekan.png</thumb>
+	</bookmark>
+	<bookmark>
+		<title>google</title>
+		<url>https://www.google.com/</url>
+		<thumb>google.png</thumb>
 	</bookmark>
 	<bookmark>
 		<title>facebook</title>
@@ -77,20 +92,10 @@
 		<thumb>globo.png</thumb>
 	</bookmark>
 	<bookmark>
-		<title>Trello</title>
-		<url>http://trello.com/deltasge</url>
-		<thumb>trello.png</thumb>
-	</bookmark>
-	<bookmark>
 		<title>billboard</title>
 		<url>http://www.billboard.com/charts/hot-100#/charts/hot-100</url>
 		<thumb>billboard.png</thumb>
 	</bookmark>	
-	<bookmark>
-		<title>google</title>
-		<url>https://www.google.com/</url>
-		<thumb>google.png</thumb>
-	</bookmark>
 	<bookmark>
 		<title>dribbble</title>
 		<url>http://dribbble.com</url>
@@ -100,10 +105,5 @@
 		<title>Spotify</title>
 		<url>http://goo.gl/OO9X0W</url>
 		<thumb>spotify.png</thumb>
-	</bookmark>
-	<bookmark>
-		<title>Google Play Music</title>
-		<url>http://play.google.com/music/</url>
-		<thumb>gplay.png</thumb>
 	</bookmark>
 </content>
