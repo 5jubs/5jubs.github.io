@@ -17,9 +17,9 @@
 		<thumb>github.png</thumb>
 	</bookmark>
 	<bookmark>
-		<title>RocketChat</title>
-		<url>https://chat.deltasge.com.br:8000/</url>
-		<thumb>rocketchat.png</thumb>
+		<title>Discord</title>
+		<url>https://discord.com/activity</url>
+		<thumb>discord.png</thumb>
 	</bookmark>
 	<bookmark>
 		<title>ClickUpDelta</title>
@@ -71,11 +71,11 @@
 		<url>http://youtube.com</url>
 		<thumb>youtube.png</thumb>
 	</bookmark>
-  <bookmark>
-    <title>Tecmundo</title>
-    <url>http://www.tecmundo.com.br/</url>
-    <thumb>tecmundo.png</thumb>
-  </bookmark>
+	<bookmark>
+		<title>Tecmundo</title>
+		<url>http://www.tecmundo.com.br/</url>
+		<thumb>tecmundo.png</thumb>
+	</bookmark>
 	<bookmark>
 		<title>last.fm</title>
 		<url>http://www.last.fm/pt/user/jubs5</url>
