@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Senha Master do Dia</title>
+	<style> 
+		body { 
+			font-family: Arial, sans-serif; 
+		}
+	</style>
+	<script type="text/javascript">
+		// Função que Gera a Senha
+		function GeraAsenha() {
+						let Soma;
+			let Semana, Mult;
+			let Buf, Senha;
+
+			Semana = new Date().getDay() + 1;
+			Buf = new Date().toLocaleDateString(
+				'en-US',
+				{
+					month: '2-digit',
+					day: '2-digit',
+					year: 'numeric'
+				}
+			);
+			Buf = Buf.replace('/','');
+			Buf = Buf.replace('/','');
+			Buf += Semana.toString();
+			Semana++;
+
+			Mult = 3;
+			Soma = 23456;
+
+			for (let i = Buf.length - 1; i >= 0; i--) {
+				Soma += parseInt(
+					Buf.substring(i, i+1)
+				) * Mult;
+				Mult = (
+					Mult >= 9
+					? 3
+					: Mult + 1
+				);
+			}
+
+			Senha = Soma * Semana + "";
+
+			return Senha;
+		};
+		
+		// Função dos Botões que Copia a Senha
+		function CopiaSenha(esuper) {
+			let Senha = GeraAsenha();
+			let texto;
+
+			if(esuper) {
+				Senha = Senha + Senha.substring(0,1);
+				texto = "Super";
+			} else {
+				Senha = Senha;
+				texto = "Master"
+			}
+			
+			navigator.clipboard.writeText(Senha).then(
+				function() {
+					console.log("Async: Senha " + texto + " Copiada para o Clipboard!");
+					alert("Senha " + texto + " Copiada para o Clipboard!");
+				},
+				function(err) {
+					console.error("Async: Erro ao Copiar a Senha " + texto + ": ", err);
+					alert("Erro ao Copiar a Senha " + texto + ": ", err);
+				}
+			);
+		};
+		
+		// Função que Formata o Dia
+		function formataDia(pdia) {
+
+            const dia = String(pdia.getDate()).padStart(2, '0');
+            const mes = String(pdia.getMonth() + 1).padStart(2, '0');
+            const ano = pdia.getFullYear();
+
+            // Retorna formatado em DD/MM/YYYY
+            return `${dia}/${mes}/${ano}`;
+        }
+		
+		// Função que Carrega a Senha nos Campos ao Carregar a Página
+		window.onload = function() {
+			const cdia = document.getElementById('dia');
+			const master = document.getElementById('campoMaster');
+			const ssuper = document.getElementById('campoSuper');
+			const asenha = GeraAsenha();
+			cdia.textContent = formataDia(new Date());
+			master.value = asenha;
+			ssuper.value = asenha + asenha.substring(0,1);
+			master.select();
+			ssuper.setSelectionRange(0, ssuper.value.length);
+		};
+		
+		// Função que Seleciona o Campo Todo de Senha ao Clicar Nele
+		function seleciona(esuper) {
+			const master = document.getElementById('campoMaster');
+			const ssuper = document.getElementById('campoSuper');
+			
+			if(esuper) {
+				ssuper.select();
+			} else {
+				master.select();
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Senhas para: <span id="dia"></span></h1>
+	<p>
+		Master do Dia:
+		<input type="text" id="campoMaster" readonly onclick="seleciona(false)" />
+		<input type="button" value="Copiar" onclick="CopiaSenha(false)" />
+	</p>
+	<p>
+		Super do Dia:
+		<input type="text" id="campoSuper" readonly onclick="seleciona(true)" />
+		<input type="button" value="Copiar" onclick="CopiaSenha(true)" />
+	</p>
+</body>
+</html>
