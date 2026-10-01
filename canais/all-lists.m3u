@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1,br-iptv-org
+https://iptv-org.github.io/iptv/countries/br.m3u
+#EXTINF:-1,br-iptv-org-mirror
+https://5jubs.github.io/canais/br-iptv-org.m3u
+#EXTINF:000,br-atual
+https://5jubs.github.io/canais/br-atual.m3u
+#EXTINF:000,talk-sport-uk
+https://5jubs.github.io/canais/talk-sport-uk.m3u
