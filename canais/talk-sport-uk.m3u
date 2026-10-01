@@ -1,0 +1,10 @@
+#EXTM3U
+#EXTINF:000,Talk Sport Radio 1
+#EXTVLCOPT:network-caching=1000
+http://radio.talksport.com/stream?aisGetOriginalStream=true
+#EXTINF:000,Talk Sport Radio 2
+#EXTVLCOPT:network-caching=1000
+http://radio.talksport.com/stream2?ref=rf
+#EXTINF:000,Talk Sport WebVideo 1
+#EXTVLCOPT:network-caching=1000
+https://tinyurl.com/mrx5y5f4
